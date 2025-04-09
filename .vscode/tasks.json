@@ -11,7 +11,9 @@
                 "-DNDEBUG",
                 "-pedantic-errors",
                 "-std=c++2a",
-                "${file}",
+                "${fileDirname}\\main.cpp",
+                //"${fileDirname}\\add.cpp",
+                "${fileDirname}\\input.cpp", //installar CMake
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
