@@ -1,3 +1,4 @@
+int _dowildcard = -1;
 #include <iostream>
 
 int getInteger();
